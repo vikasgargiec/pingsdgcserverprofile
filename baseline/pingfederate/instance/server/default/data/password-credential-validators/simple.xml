@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-11T13:12:35.115Z" name="simple" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-18T14:26:09.689Z" name="simple" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields/>
     <urn:AdvancedFields/>
     <urn:Tables>
         <urn:Table name="Users">
             <urn:Row defaultRow="false">
                 <urn:Field name="Username">joe</urn:Field>
-                <urn:Field name="Password">EXdRPi3LS9BoCSz4sf0FmVlNKrMZFB80IkNiRvgG-DI.86eiiopk.2</urn:Field>
-                <urn:Field name="Confirm Password">avg1ZAU2Bti03Puwp-juDJ4hF6oqRzcmdwcw2ytpq-8.z720bhbV.2</urn:Field>
+                <urn:Field name="Password">SvX9oMEsLq3UyfXoQ-1b0nmIGjjF_lgAz2XZk_HFIEQ.oqXfehPt.2</urn:Field>
+                <urn:Field name="Confirm Password">Lg6CQz1iux6GwKEHXlNzuhoVRNXagUUll1NNT3Cra-Q.QjB-4i6k.2</urn:Field>
                 <urn:Field name="Relax Password Requirements">true</urn:Field>
             </urn:Row>
         </urn:Table>

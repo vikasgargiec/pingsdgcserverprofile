@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:AccessTokenManagerConfiguration inheritAccessControlSettings="false" inheritSelectionSettings="false" inheritSessionValidationSettings="false" restrictClients="false" includeSessionIdentifier="false" checkSessionRevocationStatus="false" checkValidAuthnSession="false" updateAuthnSessionActivity="false" defaultSubjectAttribute="" isInheritExtendedContractAttributes="false" lastModified="2024-07-11T13:12:35.230Z" name="JSON Web Tokens" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+<urn:AccessTokenManagerConfiguration inheritAccessControlSettings="false" inheritSelectionSettings="false" inheritSessionValidationSettings="false" restrictClients="false" includeSessionIdentifier="false" checkSessionRevocationStatus="false" checkValidAuthnSession="false" updateAuthnSessionActivity="false" defaultSubjectAttribute="" isInheritExtendedContractAttributes="false" lastModified="2024-07-18T14:26:11.306Z" name="JSON Web Tokens" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields>
         <urn:Field name="Token Lifetime">120</urn:Field>
         <urn:Field name="JWS Algorithm">RS256</urn:Field>

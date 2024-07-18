@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:config xmlns:con="http://www.sourceid.org/2004/05/config">
     <con:item name="default-scope-description">default</con:item>
-    <con:item name="lastUpdated">1720703556427</con:item>
+    <con:item name="lastUpdated">1721312774075</con:item>
     <con:map name="scope-descriptions">
         <con:item name="address">Address access</con:item>
         <con:item name="phone">Phone Number access</con:item>

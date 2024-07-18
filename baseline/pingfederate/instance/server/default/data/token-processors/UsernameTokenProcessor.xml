@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:TokenProcessorConfiguration isInheritAttributeSettings="false" maskOgnlValues="false" isInheritExtendedContractAttributes="false" lastModified="2024-07-11T13:12:35.320Z" name="UsernameTokenProcessor" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+<urn:TokenProcessorConfiguration isInheritAttributeSettings="false" maskOgnlValues="false" isInheritExtendedContractAttributes="false" lastModified="2024-07-18T14:26:11.958Z" name="UsernameTokenProcessor" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields>
         <urn:Field name="Authentication Attempts">3</urn:Field>
     </urn:Fields>

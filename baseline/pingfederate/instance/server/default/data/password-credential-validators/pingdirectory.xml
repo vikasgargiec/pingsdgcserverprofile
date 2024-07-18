@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-11T13:12:35.099Z" name="pingdirectory" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-18T14:26:09.427Z" name="pingdirectory" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields>
         <urn:Field name="LDAP Datastore">LDAP-D803C87FAB2ADFB4B0A947B64BA6F0C6093A5CA3</urn:Field>
         <urn:Field name="Search Base">dc=example,dc=com</urn:Field>

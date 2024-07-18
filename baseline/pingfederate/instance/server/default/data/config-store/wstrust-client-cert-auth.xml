@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:config xmlns:con="http://www.sourceid.org/2004/05/config">
+    <con:item name="enabled">false</con:item>
+    <con:item name="restrict-by-issuer-cert">false</con:item>
+    <con:item name="restrict-by-subject-dn">false</con:item>
+    <con:list name="acceptable-issuer-cert-aliases"/>
+    <con:list name="acceptable-subject-DNs"/>
+</con:config>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urn:OpenIdConnectProviderPolicy enabled="true" defaultPolicyGroupId="OAuthPlayground" trackUserSessionsForLogout="false" xmlns:urn="urn:pingidentity.com:pf:openid:connect:idp:policy">
-    <urn:ProviderPolicyGroup policyId="OAuthPlayground" idTokenLife="5" includeSriInIdToken="false" includeUserInfoInIdToken="false" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="OAuthPlayground" accessTokenManagerId="jwt" lastModified="2024-07-11T13:12:36.497Z">
+    <urn:ProviderPolicyGroup policyId="OAuthPlayground" idTokenLife="5" includeSriInIdToken="false" includeUserInfoInIdToken="false" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="OAuthPlayground" accessTokenManagerId="jwt" lastModified="2024-07-18T14:26:28.318Z">
         <urn:UserInfoMapping>
             <urn1:AttributeMap Name="sub" Type="Token" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                 <urn1:ValueText>Username</urn1:ValueText>
@@ -83,7 +83,7 @@
         <urn:attributeContractInclusionMap/>
         <urn:ExtendedAttributesAdditionalProperties/>
     </urn:ProviderPolicyGroup>
-    <urn:ProviderPolicyGroup policyId="pingaccess" idTokenLife="5" includeSriInIdToken="true" includeUserInfoInIdToken="true" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="pingaccess" accessTokenManagerId="jwt" lastModified="2024-07-11T13:12:36.512Z">
+    <urn:ProviderPolicyGroup policyId="pingaccess" idTokenLife="5" includeSriInIdToken="true" includeUserInfoInIdToken="true" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="pingaccess" accessTokenManagerId="jwt" lastModified="2024-07-18T14:26:28.350Z">
         <urn:UserInfoMapping>
             <urn1:AttributeMap Name="sub" Type="Token" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                 <urn1:ValueText>Username</urn1:ValueText>
@@ -94,7 +94,7 @@
         <urn:attributeContractInclusionMap/>
         <urn:ExtendedAttributesAdditionalProperties/>
     </urn:ProviderPolicyGroup>
-    <urn:ProviderPolicyGroup policyId="pingdelegator" idTokenLife="5" includeSriInIdToken="false" includeUserInfoInIdToken="false" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="pingdelegator" accessTokenManagerId="jwt" lastModified="2024-07-11T13:12:36.518Z">
+    <urn:ProviderPolicyGroup policyId="pingdelegator" idTokenLife="5" includeSriInIdToken="false" includeUserInfoInIdToken="false" includeSHashInIdToken="false" includeX5tInIdToken="false" idTokenTypHeaderValue="" returnIdTokenOnRefreshGrant="false" reissueIdTokenHybridFlows="false" policyName="pingdelegator" accessTokenManagerId="jwt" lastModified="2024-07-18T14:26:28.387Z">
         <urn:UserInfoMapping>
             <urn1:AttributeMap Name="sub" Type="Token" xmlns:urn1="urn:sourceid.org:saml2:metadata-extension:v2">
                 <urn1:ValueText>Username</urn1:ValueText>

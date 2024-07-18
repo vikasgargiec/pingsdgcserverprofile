@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<c2c:c2cContract id="Zxp6N6W5PH9onACT" name="simplecontract" lastModified="2024-07-11T13:12:34.784Z" xmlns:c2c="http://pingidentity.com/2014/10/c2cContracts">
+<c2c:c2cContract id="Zxp6N6W5PH9onACT" name="simplecontract" lastModified="2024-07-18T14:26:07.081Z" xmlns:c2c="http://pingidentity.com/2014/10/c2cContracts">
     <c2c:extendedAttributes>
         <c2c:attr name="mail"/>
     </c2c:extendedAttributes>

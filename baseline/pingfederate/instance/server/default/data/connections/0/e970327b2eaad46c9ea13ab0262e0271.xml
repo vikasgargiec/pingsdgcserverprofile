@@ -20,7 +20,7 @@
     </md:Extensions>
     <md:RoleDescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xsi:type="urn:PFSpWsTrustRoleDescriptorType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
         <md:Extensions>
-            <urn:RoleExtension LastModified="2024-07-11T13:12:36.243Z" creationTime="2024-07-11T13:12:36.243Z"/>
+            <urn:RoleExtension LastModified="2024-07-18T14:26:25.191Z" creationTime="2024-07-18T14:26:25.186Z"/>
         </md:Extensions>
         <urn:WsTrustSettings>
             <urn:AppliesTo>localhost:default:entityId</urn:AppliesTo>
