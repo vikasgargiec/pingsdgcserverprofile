@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-18T14:26:09.689Z" name="simple" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
+<urn:PluginConfiguration isInheritExtendedContractAttributes="false" lastModified="2024-07-19T09:45:39.254Z" name="simple" xmlns:urn="urn:sourceid.org:saml2:adapter:conf">
     <urn:Fields/>
     <urn:AdvancedFields/>
     <urn:Tables>
@@ -8,6 +8,12 @@
                 <urn:Field name="Username">joe</urn:Field>
                 <urn:Field name="Password">SvX9oMEsLq3UyfXoQ-1b0nmIGjjF_lgAz2XZk_HFIEQ.oqXfehPt.2</urn:Field>
                 <urn:Field name="Confirm Password">Lg6CQz1iux6GwKEHXlNzuhoVRNXagUUll1NNT3Cra-Q.QjB-4i6k.2</urn:Field>
+                <urn:Field name="Relax Password Requirements">true</urn:Field>
+            </urn:Row>
+            <urn:Row defaultRow="false">
+                <urn:Field name="Username">vikas</urn:Field>
+                <urn:Field name="Password">l6rkwlt04y2krvKFlhrD6pP0CspLYfpYlTCJhll7LBQ.J4mM9uMa.2</urn:Field>
+                <urn:Field name="Confirm Password">Z5Sg-wtPl1AV0UJF5JQ380X_8dmXD3Lk8nssNlfZ3Z8.b2MWrZB7.2</urn:Field>
                 <urn:Field name="Relax Password Requirements">true</urn:Field>
             </urn:Row>
         </urn:Table>
