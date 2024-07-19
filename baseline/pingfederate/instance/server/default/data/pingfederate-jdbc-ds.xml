@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <datasources>
     <local-tx-datasource maskAttributeValues="false">
+        <description>mysqldbforOauth</description>
+        <name>mysqldbforOauth</name>
+        <jndi-name>JDBC-5C9658641971933E9C1B432408DD443312342A72</jndi-name>
+        <connection-url>jdbc:mysql://mysql:3306/test</connection-url>
+        <driver-class>com.mysql.cj.jdbc.Driver</driver-class>
+        <user-name>pingsql</user-name>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..qnuOj5BJh_IMkbGeDuLENg.u_QEGPE1fErl1m0_3Qhnpg.lqDumr9dxTyJ5NhJjuQ4og</password>
+        <min-pool-size>10</min-pool-size>
+        <max-pool-size>100</max-pool-size>
+        <blocking-timeout-millis>5000</blocking-timeout-millis>
+        <idle-timeout-minutes>5</idle-timeout-minutes>
+        <ping-db-type>Custom</ping-db-type>
+        <allow-multi-value-attributes>true</allow-multi-value-attributes>
+        <connectionTagList>
+            <tagEntry connection-url="jdbc:mysql://mysql:3306/test" tags=""/>
+        </connectionTagList>
+        <lastModified>2024-07-19T07:58:59.140Z</lastModified>
+    </local-tx-datasource>
+    <local-tx-datasource maskAttributeValues="false">
         <description>ProvisionerDS (sa)</description>
         <name>ProvisionerDS (sa)</name>
         <jndi-name>ProvisionerDS</jndi-name>
         <connection-url>jdbc:hsqldb:${pf.server.data.dir}${/}hypersonic${/}ProvisionerDefaultDB;hsqldb.lock_file=false</connection-url>
         <driver-class>org.hsqldb.jdbcDriver</driver-class>
         <user-name>sa</user-name>
-        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..MG1Py0tqqtOJhOb0lNdHjg.aBWM8CJjC1W83WICQk_-rg.a3RhjjEFnN9VKYTb9_huvQ</password>
+        <password>eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2Iiwia2lkIjoiRW1JY1UxOVdueSIsInZlcnNpb24iOiIxMi4xLjAuNCJ9..rFjqvJTVckUlgfP8wAOD-Q.gmDEfoKzCOWcXPUwMw1SuQ.-aGOoh0BJHuCQLrWgl28GA</password>
         <min-pool-size>10</min-pool-size>
         <max-pool-size>100</max-pool-size>
         <blocking-timeout-millis>5000</blocking-timeout-millis>
